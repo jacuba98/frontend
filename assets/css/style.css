@@ -1,0 +1,29 @@
+/*My customs stylesheet*/
+
+/*Colors variable*/
+:root{
+  --color-primary:#2289FF;
+  --color-secondary:#314862!important;
+  --color-acent:#193F6A;
+}
+
+/*Custom Classes*/
+.bg-primary{
+  background-color: var(--color-primary);
+}
+.color-primary{
+  color:var(--color-primary);
+}
+.bg-secondary{
+  background-color: var(--color-secondary);
+}
+.color-secondary{
+  color: var(--color-secondary);
+}
+.bg-acent{
+  background-color: var(--color-acent);
+}
+.coloracent{
+  color: var(--color-acent);
+}
+
