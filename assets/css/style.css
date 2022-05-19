@@ -157,6 +157,9 @@ header.header{
   background-color: #eeeeee;
   font-family: var(--font-poppin);
 }
+#about-section h1{
+  color: var(--color-secondary);
+}
 #about-section .image{
   border-radius: 80px 0 80px 80px;
   overflow: hidden;
@@ -192,5 +195,58 @@ header.header{
   font-size: 13px;
   font-weight: 400;
 }
+
+/*Property Section Style*/
+#proprty-section{
+  width: 100%;
+  padding: 50px 0;
+  background-color: #eeeeee;
+  font-family: var(--font-poppin);
+  color: var(--color-secondary);
+}
+#proprty-section .text-right{
+  text-align: right;
+}
+#proprty-section .text-right a{
+  color: var(--color-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  transition: 1s ease;
+}
+#proprty-section .text-right a:hover{
+  color: var(--color-primary);
+}
+
+#proprty-section #property-slider{
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+#property-slider .swiper{
+  width: 100%;
+  height: 100%;
+}
+#property-slider .swiper .swiper-slide .property-list{
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 0 30px 0 30px;
+  color: #000000;
+}
+#property-slider .swiper .swiper-slide .property-list p{
+  font-weight: 500;
+}
+#property-slider .swiper .swiper-slide .property-list .image{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 0 30px 0 30px;
+  margin-bottom: 10px;
+}
+#property-slider .swiper .swiper-slide .property-list .image img{
+  width: 100%;
+  height: 100%;
+}
+
 
 
