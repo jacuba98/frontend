@@ -325,3 +325,28 @@ header.header{
   border-radius: 30px;
 }
 
+/*Testimonial Section Style*/
+#testimonial-section{
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  font-family: var(--font-poppin);
+}
+#testimonial-section .testimonial-list .image{
+  border-radius: 100% 100% 0 100%;
+  overflow: hidden;
+  height: 370px;
+}
+#testimonial-section .testimonial-list .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text-left{
+  text-align: left;
+}
+#testimonial-section .testimonial-list i.fas{
+  color: var(--color-primary);
+  opacity: 0.2;
+}
+
