@@ -345,8 +345,41 @@ header.header{
 .text-left{
   text-align: left;
 }
+.text-right{
+  text-align: right;
+}
 #testimonial-section .testimonial-list i.fas{
   color: var(--color-primary);
   opacity: 0.2;
+}
+
+/*Mianl Section Style*/
+#mail-section{
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  font-family: var(--font-poppin);
+}
+#mail-section .form{
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+#mail-section .form input{
+  padding: 15px 0px;
+  border: none;
+}
+#mail-section .form input:shadow{
+  padding: 15px 0px;
+  box-shadow: none;
+  border: none;
+}
+#mail-section .form input:focus{
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+#mail-section .form .btn-theme{
+  border-radius: 30px;
+  padding: 12px 40px;
 }
 
