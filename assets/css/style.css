@@ -111,7 +111,7 @@ header.header{
 /* Hero Banner Style */
 #hero-banner{
   width: 100%;
-  padding: 80px 0;
+  padding: 60px 10px;
   color: var(--color-secondary);
   font-family: var(--font-poppin);
 }
@@ -119,11 +119,16 @@ header.header{
   font-weight: 400;
 }
 #hero-banner .image{
+  margin-top: 30px;
   border-radius: 80px 80px 0 80px;
   overflow: hidden;
 }
 
 /* Search section style*/
+#search-section{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
 #search-section .search-area{
   border-radius: 80px;
   padding: 15px 50px;
@@ -387,7 +392,7 @@ header.header{
 /*Footer Style*/
 footer{
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
   background-color: var(--color-primary);
   font-family: var(--font-poppin);
   color: #ffffff;
@@ -405,4 +410,61 @@ footer ul li a{
 footer ul li a:hover{
   opacity: 0.7;
   color: #ffffff;
+}
+@media only screen and (max-width:991px){
+  #testimonial-section .testimonial-list .image{
+    border-radius: 100%;
+    height: 210px;
+    border: 5px solid white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  }
+  #testimonial-section .testimonial-list i.fas{
+    font-size: 56px !important;
+  }
+}
+@media only screen and (max-width:500px){
+  #search-section{
+    margin-top: 0px;
+  }
+  #search-section .search-area{
+    border-radius: 0;
+    padding: 30px;
+  }
+  #search-section .search-area input{
+    margin-bottom: 10px;
+  }
+  #search-section .search-area button.btn-theme{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  /*Services Section*/
+  #services-section .d-flex{
+    flex-direction: column;
+  }
+
+  /*Work Section*/
+  #work-section .d-flex{
+    flex-direction: column;
+  }
+
+  /*Testimonial Section*/
+  #testimonial-section .testimonial-list .image{
+    border-radius: 100%;
+    height: 110px;
+    border: 5px solid white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  }
+  #testimonial-section .testimonial-list i.fas{
+    font-size: 48px !important;
+    color: #000000;
+  }
+  /*Mail Section*/
+  #mail-section .form{
+    padding: 20px;
+  }
+  #mail-section .btn-theme{
+    margin: 20px 0 10px 0;
+    width: 100%;
+  }
 }
